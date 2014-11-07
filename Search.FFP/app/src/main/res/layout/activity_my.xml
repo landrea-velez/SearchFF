@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity"
+    android:background="#ffffffff">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:textStyle="bold" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".LinearLayout"
+        >
+
+        <Button
+            android:text="Todo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="#ffffffff"
+            android:onClick="lanzarAllPlaces"
+            android:id="@+id/bAllPlaces" />
+
+        <Button
+            android:text="Burbujas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:drawableLeft="@drawable/christmas230"
+            android:textStyle="bold"
+            android:id="@+id/bBurbuja" />
+        <Button
+            android:text="Cafeterías"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:drawableLeft="@drawable/hot50"
+            android:textStyle="bold"
+            android:id="@+id/bCafeteria" />
+        <Button
+            android:text="Comidas Rápidas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:drawableLeft="@drawable/fastfood"
+            android:textStyle="bold"
+            android:id="@+id/bComidasRap" />
+        <Button
+            android:text="Frutas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:drawableLeft="@drawable/apple54"
+            android:textStyle="bold"
+            android:id="@+id/bFrutas" />
+        <Button
+            android:text="Helados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:drawableLeft="@drawable/ice80"
+            android:textStyle="bold"
+            android:id="@+id/bHelado" />
+        <Button
+            android:text="Restaurante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:drawableLeft="@drawable/restaurant2"
+            android:textStyle="bold"
+            android:id="@+id/bRestaurante" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
