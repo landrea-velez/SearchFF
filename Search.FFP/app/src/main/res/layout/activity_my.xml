@@ -74,7 +74,7 @@
             android:textStyle="bold"
             android:id="@+id/bHelado" />
         <Button
-            android:text="Restaurante"
+            android:text="Restaurantes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#ffffffff"
